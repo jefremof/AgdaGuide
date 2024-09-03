@@ -4,35 +4,29 @@ A guide for getting started with Agda language quickly
 ## Обзор экосистемы:
 **0. Языковая база:**
 
-Туториал от создателя языка:
-- https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf
+[Туториал от создателя языка](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)
 
-Agda User Manual
-- https://agda.readthedocs.io/en/latest/getting-started/index.html
+[Agda User Manual](https://agda.readthedocs.io/en/latest/getting-started/index.html)
 
-Базовые модули (`Nat`, `String`, `List`, etc...):
-- https://github.com/agda/agda/tree/master/src/data/lib/prim/Agda/Builtin
+[Базовые модули (`Nat`, `String`, `List`, etc...)](https://github.com/agda/agda/tree/master/src/data/lib/prim/Agda/Builtin)
+
+[Отлично оформленные лекции](https://github.com/jespercockx/agda-lecture-notes/blob/master/agda.pdf)
 
 Стандартная библиотека и её интерактивная версия:
 - https://github.com/agda/agda-stdlib/blob/master/README.md
 - https://agda.github.io/agda-stdlib/
 
-Отлично оформленные лекции:
-- https://github.com/jespercockx/agda-lecture-notes/blob/master/agda.pdf
-
 ---
 **1. Для Agda нет ни одного линтера.**
 
-Однако есть рекоммендации по стилю кода
-- https://github.com/agda/agda-stdlib/blob/master/doc/style-guide.md
+Однако есть [рекоммендации](https://github.com/agda/agda-stdlib/blob/master/doc/style-guide.md) по стилю кода
 
 --- 
 **2. Для Agda уже написана реализация golden tests.**
 
 https://github.com/agda/agda-stdlib/blob/master/src/Test/Golden.agda
 
-Пример того, как следует использовать эту реализацию, также содержится в репозитории:
-- https://github.com/agda/agda-stdlib/tree/master/tests
+Пример того, как следует использовать эту реализацию, также содержится в [репозитории](https://github.com/agda/agda-stdlib/tree/master/tests)
 
 ---
 **3. Для Agda есть готовые Github Actions**
