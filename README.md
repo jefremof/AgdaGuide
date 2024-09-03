@@ -40,7 +40,14 @@ https://github.com/agda/agda-stdlib/blob/master/src/Test/Golden.agda
 https://github.com/wenkokke/setup-agda
 
 ---
-**4. Примеры интересных проектов на Agda:**
+**4. Парсеры на Agda**
+
+Комбинаторные парсеры, в репозитории есть пример реализации для `JSON`:
+- https://github.com/gallais/agdarsec
+- у меня так и не получилось скомпилировать этот проект с указанной версией `stdlib`, некоторые импорты относятся к старым версиям.
+
+---
+**5. Примеры интересных проектов на Agda:**
 
 Сертифицированный компилятор под стековую машину:
 - http://liamoc.net/posts/2015-08-23-verified-compiler/index.html
@@ -51,7 +58,10 @@ https://github.com/wenkokke/setup-agda
 Интерпретатор Brainfuck:
 - https://github.com/wouter-swierstra/Brainfuck/blob/master/README.md
 
-X86-64 Assembly от создателя языка
+Комбинаторные парсеры: (+ интересная статья)
+- https://github.com/gallais/agdarsec
+
+X86-64 Assembly от создателя языка:
 - https://github.com/UlfNorell/x86-agda
 
 
