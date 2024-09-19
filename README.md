@@ -12,6 +12,8 @@ A guide for getting started with Agda language quickly
 
 [Отлично оформленные лекции](https://github.com/jespercockx/agda-lecture-notes/blob/master/agda.pdf)
 
+[Список репозиториев с использованием Agda](https://github.com/xgrommx/agda-ecosystem)
+
 Стандартная библиотека и её интерактивная версия:
 - https://github.com/agda/agda-stdlib/blob/master/README.md
 - https://agda.github.io/agda-stdlib/
@@ -24,8 +26,7 @@ A guide for getting started with Agda language quickly
 --- 
 **2. Для Agda уже написана реализация golden tests.**
 
-https://github.com/agda/agda-stdlib/blob/master/src/Test/Golden.agda
-
+https://github.com/agda/agda-stdlib/blob/master/src/Test/Golden.agda<br>
 Пример того, как следует использовать эту реализацию, также содержится в [репозитории](https://github.com/agda/agda-stdlib/tree/master/tests)
 
 ---
@@ -36,30 +37,30 @@ https://github.com/wenkokke/setup-agda
 ---
 **4. Парсеры на Agda**
 
-Комбинаторные парсеры, в репозитории есть пример реализации для `JSON`:
-- https://github.com/gallais/agdarsec
-- у меня так и не получилось скомпилировать этот проект с указанной версией `stdlib`, некоторые импорты относятся к старым версиям.
+Комбинаторные парсеры, в репозитории есть пример реализации для `JSON`:<br>https://github.com/gallais/agdarsec
+
+у меня так и не получилось скомпилировать этот проект с указанной версией `stdlib`, некоторые импорты относятся к старым версиям.
 
 ---
 **5. Примеры интересных проектов на Agda:**
 
-Сертифицированный компилятор под стековую машину:
-- http://liamoc.net/posts/2015-08-23-verified-compiler/index.html
+Сертифицированный компилятор под стековую машину:<br>
+http://liamoc.net/posts/2015-08-23-verified-compiler/index.html
 
-Комплияция Middleweight Java в JVM байткод:
-- https://github.com/ajrouvoet/jvm.agda/tree/master
+Комплияция Middleweight Java в JVM байткод:<br>
+https://github.com/ajrouvoet/jvm.agda/tree/master
 
-Интерпретатор Brainfuck:
-- https://github.com/wouter-swierstra/Brainfuck/blob/master/README.md
+Интерпретатор Brainfuck:<br>
+https://github.com/wouter-swierstra/Brainfuck/blob/master/README.md
 
-Комбинаторные парсеры: (+ интересная статья)
-- https://github.com/gallais/agdarsec
+Комбинаторные парсеры: (+ интересная статья)<br>
+https://github.com/gallais/agdarsec
 
-X86-64 Assembly от создателя языка:
-- https://github.com/UlfNorell/x86-agda
+X86-64 Assembly от создателя языка:<br>
+https://github.com/UlfNorell/x86-agda
 
 
-лекция, на которой он пишет программу для вычисления простых арифметических выражений (с поддержкой переменных)
+лекция, на которой он пишет evaluator арифметических выражений:<br>
 - https://youtu.be/NrSW7YsneVg
 ---
 
