@@ -2,7 +2,7 @@
 A guide for getting started with Agda language quickly
 
 ## Обзор экосистемы:
-**0. Главные источники информации:**
+**0. Основные источники информации:**
 
 [Туториал от создателя языка](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)
 
