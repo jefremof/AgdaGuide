@@ -19,8 +19,7 @@ A guide for getting started with Agda language quickly
 - https://agda.github.io/agda-stdlib/
 
 ---
-**1. Для Agda нет ни одного линтера.**
-
+**1. Для Agda нет ни одного линтера.**<br>
 Однако есть [рекоммендации](https://github.com/agda/agda-stdlib/blob/master/doc/style-guide.md) по стилю кода
 
 --- 
@@ -30,8 +29,7 @@ https://github.com/agda/agda-stdlib/blob/master/src/Test/Golden.agda<br>
 Пример того, как следует использовать эту реализацию, также содержится в [репозитории](https://github.com/agda/agda-stdlib/tree/master/tests)
 
 ---
-**3. Для Agda есть готовые Github Actions**
-
+**3. Для Agda есть готовые Github Actions**<br>
 https://github.com/wenkokke/setup-agda
 
 ---
@@ -53,15 +51,15 @@ https://github.com/ajrouvoet/jvm.agda/tree/master
 Интерпретатор Brainfuck:<br>
 https://github.com/wouter-swierstra/Brainfuck/blob/master/README.md
 
-Комбинаторные парсеры: (+ интересная статья)<br>
+Комбинаторные парсеры: (+ занимательная статья)<br>
 https://github.com/gallais/agdarsec
 
 X86-64 Assembly от создателя языка:<br>
 https://github.com/UlfNorell/x86-agda
 
-
 лекция, на которой он пишет evaluator арифметических выражений:<br>
-- https://youtu.be/NrSW7YsneVg
+https://youtu.be/NrSW7YsneVg
+
 ---
 
 
