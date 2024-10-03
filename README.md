@@ -35,9 +35,15 @@ https://github.com/wenkokke/setup-agda
 ---
 **4. Парсеры на Agda**
 
-Комбинаторные парсеры, в репозитории есть пример реализации для `JSON`:<br>https://github.com/gallais/agdarsec
+Комбинаторные парсеры:
 
-у меня так и не получилось скомпилировать этот проект с указанной версией `stdlib`, некоторые импорты относятся к старым версиям.
+https://github.com/nad/parser-combinators<br>
+https://www.cse.chalmers.se/~nad/publications/danielsson-parser-combinators.pdf<br>
+Работает с `stdlib 2.0`, может потребоваться убрать лишний импорт.
+
+Аналогичный проект, есть пример для `JSON`:<br>https://github.com/gallais/agdarsec
+
+у меня так и не получилось скомпилировать его с указанной в репозитории версией `stdlib` (некоторые импорты относятся к другим версиям)
 
 ---
 **5. Примеры интересных проектов на Agda:**
